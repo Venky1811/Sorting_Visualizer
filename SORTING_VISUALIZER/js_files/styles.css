@@ -1,0 +1,19 @@
+.body {
+  background-color: #f2f2f2;
+}
+
+.bars-container {
+  width: 600px; 
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px; 
+  white-space: nowrap; /* Prevent bars from wrapping to the next line */
+}
+
+
+.bar {
+  display: inline-block;
+  width: 10px;
+  margin: 3px;
+  background-color: blue;
+}

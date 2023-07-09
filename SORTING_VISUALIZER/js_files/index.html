@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <span class="navbar-brand">Sorting Visualizer</span>
+      <div class="btn-group" role="group" aria-label="Sorting Algorithms">
+        <button type="button" class="btn btn-dark" id="bubble-sort-btn">Bubble Sort</button>
+        <button type="button" class="btn btn-dark" id="selection-sort-btn">Selection Sort</button>
+        <button type="button" class="btn btn-dark" id="insertion-sort-btn">Insertion Sort</button>
+        <button type="button" class="btn btn-dark" id="quick-sort-btn">Quick Sort</button>
+        <button type="button" class="btn btn-dark" id="merge-sort-btn">Merge Sort</button>
+      </div>
+      <button type="button" class="btn btn-primary" id="generate-array-btn">Generate New Array</button>
+    </div>
+  </nav>
+
+  <span>
+    Number of Bars:
+    <input id="arr_sz" type="range" min="20" max="120" step="1" value="60">
+  </span>
+
+  <span>
+    Speed:
+    <input id="speed-input" type="range" min="1" max="10" value="5">
+  </span>
+  
+  
+  <div id="time-complexity"></div>
+
+  <div id="bars-container" class="bars-container"></div>
+
+  <script src="quick.js"></script>
+  <script src="bubble.js"></script>
+  <script src="merge.js"></script>
+  <script src="selection.js"></script>
+  <script src="insertion.js"></script>
+  <script src="script.js"></script>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
